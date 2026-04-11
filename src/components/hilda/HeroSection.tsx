@@ -67,20 +67,14 @@ export default function HeroSection() {
           >
             Añadir Contacto
           </button>
-          <a
-            href="https://www.linkedin.com/in/hilda-palacios-01637713a/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full md:w-auto"
-          ></a>
         </div>
       </div>
 
       {showModal && (
         <AddContactModal
           contact={{
-            name: "Hilda Palacios",
-            phone: "+57 315 8346517",
+            name: "Miguel Hernandez",
+            phone: "+57 313 8488257",
           }}
           onClose={handleCloseModal}
         />
