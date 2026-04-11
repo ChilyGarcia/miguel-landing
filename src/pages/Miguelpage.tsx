@@ -3,6 +3,7 @@ import Navbar from "../components/hilda/Navbar";
 import HeroSection from "../components/hilda/HeroSection";
 import AddContactModal from "../components/AddContactModal";
 import NortechSection from "../components/miguel/NortechSection";
+import ContactSection from "../components/miguel/ContactSection";
 
 export default function MiguelPage() {
   useEffect(() => {
@@ -25,6 +26,7 @@ export default function MiguelPage() {
         </div>
       </div>
       <NortechSection />
+      <ContactSection />
     </div>
   );
 }
