@@ -19,7 +19,6 @@ export default function MiguelPage() {
         }}
         storageKey="hasSeenContactModal_Miguel"
       />
-      <Navbar />
       <div className="bg-white">
         <div className="bg-gradient-to-br from-[#9b6cf8] to-[#b89dfa] rounded-b-[80px] md:rounded-b-[6%]">
           <HeroSection />
@@ -30,4 +29,3 @@ export default function MiguelPage() {
     </div>
   );
 }
-
