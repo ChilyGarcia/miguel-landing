@@ -41,14 +41,14 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-lg leading-relaxed max-w-xl opacity-95 mx-auto md:mx-0">
-            Hilda Patricia Palacios Morales lidera con la convicción de que la
-            transformación digital debe tener rostro humano. Nacida en Cúcuta y
-            formada como contadora pública, Hilda suma más de dos décadas
-            impulsando empresas de TIC y contact center hacia modelos más
-            rentables, eficientes y con propósito. Como fundadora y presidenta
-            de BPO Happify, ha tejido una cultura que pone la felicidad del
-            equipo al centro del servicio, porque, en su experiencia, “cuando el
-            equipo está bien, el cliente también sonríe”.
+            con la convicción de que la transformación digital debe tener rostro
+            humano. Nacida en Cúcuta y formada como contadora pública, Hilda
+            suma más de dos décadas impulsando empresas de TIC y contact center
+            hacia modelos más rentables, eficientes y con propósito. Como
+            fundadora y presidenta de BPO Happify, ha tejido una cultura que
+            pone la felicidad del equipo al centro del servicio, porque, en su
+            experiencia, “cuando el equipo está bien, el cliente también
+            sonríe”.
           </p>
         </div>
       </div>
