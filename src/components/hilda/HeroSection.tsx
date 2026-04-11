@@ -31,24 +31,17 @@ export default function HeroSection() {
 
         <div className="text-white flex-1 order-2 md:order-1 text-center md:text-left mt-4 md:mt-0">
           <p className="text-sm mb-4 text-white opacity-90">
-            <span style={{ color: "#004AAD" }}>
-              Presidenta & CEO en BPO Happify{" "}
-            </span>{" "}
-            | Transformación digital con foco humano y resultados medibles.
+            <span style={{ color: "#004AAD" }}>CEO en Cerebiia</span>
           </p>
           <h1 className="text-5xl md:text-6xl font-Codec mb-4 leading-tight">
             Miguel Hernandez
           </h1>
 
           <p className="text-lg leading-relaxed max-w-xl opacity-95 mx-auto md:mx-0">
-            con la convicción de que la transformación digital debe tener rostro
-            humano. Nacida en Cúcuta y formada como contadora pública, Hilda
-            suma más de dos décadas impulsando empresas de TIC y contact center
-            hacia modelos más rentables, eficientes y con propósito. Como
-            fundadora y presidenta de BPO Happify, ha tejido una cultura que
-            pone la felicidad del equipo al centro del servicio, porque, en su
-            experiencia, “cuando el equipo está bien, el cliente también
-            sonríe”.
+            Soy Miguel Hernández, CEO de CEREBIIA. Estoy en el mundo startup
+            construyendo soluciones con datos e inteligencia artificial. Con el
+            equipo, no solo hacemos tecnología: inspiramos transformación con
+            humanidad. Creo en
           </p>
         </div>
       </div>
