@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Navbar from "../components/hilda/Navbar";
 import HeroSection from "../components/hilda/HeroSection";
 import AddContactModal from "../components/AddContactModal";
 import NortechSection from "../components/miguel/NortechSection";
