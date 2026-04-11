@@ -72,14 +72,7 @@ export default function HeroSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full md:w-auto"
-          >
-            <button
-              className="bg-gradient-to-br from-cyan-500 to-cyan-400 border-none px-8 md:px-16 py-3 text-xl font-semibold rounded-full cursor-pointer shadow-lg shadow-cyan-500/30 hover:-translate-y-0.5 hover:shadow-xl transition-all duration-300 w-full md:w-auto whitespace-nowrap"
-              style={{ color: "#004AAD" }}
-            >
-              LinkedIn
-            </button>
-          </a>
+          ></a>
         </div>
       </div>
 
