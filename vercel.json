@@ -4,37 +4,10 @@
   "outputDirectory": "dist",
   "routes": [
     {
-      "src": "^/$",
-      "status": 308,
-      "headers": {
-        "Location": "/Miguel-Hernandez/"
-      }
-    },
-    {
       "handle": "filesystem"
     },
     {
-      "src": "^/Miguel-Hernandez$",
-      "dest": "/index.html"
-    },
-    {
-      "src": "^/Miguel-Hernandez/(.*)$",
-      "dest": "/$1"
-    },
-    {
-      "src": "^/Miguel-Hernandez/.*",
-      "dest": "/index.html"
-    },
-    {
-      "src": "^/Miguel-Hernandez$",
-      "dest": "/index.html"
-    },
-    {
-      "src": "^/Miguel-Hernandez/(.*)$",
-      "dest": "/$1"
-    },
-    {
-      "src": "^/Miguel-Hernandez/.*",
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
