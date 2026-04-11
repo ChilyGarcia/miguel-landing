@@ -18,17 +18,6 @@ export default function HeroSection() {
         <div className="flex-1 flex justify-center items-center relative order-1 md:order-2 min-h-[400px] md:min-h-[500px] z-10 overflow-visible">
           <img
             src={`${import.meta.env.BASE_URL}miguel.png`}
-            alt="Fondo"
-            className="hidden md:block w-[450px] h-auto absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2 z-[5]"
-            style={{
-              maskImage:
-                "linear-gradient(to bottom, black 75%, transparent 100%)",
-              WebkitMaskImage:
-                "linear-gradient(to bottom, black 75%, transparent 100%)",
-            }}
-          />
-          <img
-            src={`${import.meta.env.BASE_URL}miguel.png`}
             alt="Miguel-hernandez"
             className="w-[280px] md:w-[400px] h-auto relative z-[15] left-[6%] md:left-[10%]"
             style={{
