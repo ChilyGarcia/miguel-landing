@@ -1,7 +1,5 @@
 import { useEffect } from "react";
 import Navbar from "../components/hilda/Navbar";
-import BpoHappifySection from "../components/hilda/BpoHappifySection";
-import ServicesSection from "../components/ServicesSection";
 import HeroSection from "../components/hilda/HeroSection";
 import AddContactModal from "../components/AddContactModal";
 
@@ -15,7 +13,7 @@ export default function MiguelPage() {
       <AddContactModal
         contact={{
           name: "Miguel Hernandez",
-          phone: "+57 315 8346517",
+          phone: "+57 313 8488257",
         }}
         storageKey="hasSeenContactModal_Miguel"
       />
