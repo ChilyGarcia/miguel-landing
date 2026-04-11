@@ -7,34 +7,34 @@
       "src": "^/$",
       "status": 308,
       "headers": {
-        "Location": "/hilda-palacios/"
+        "Location": "/Miguel-Hernandez/"
       }
     },
     {
       "handle": "filesystem"
     },
     {
-      "src": "^/hilda-palacios$",
+      "src": "^/Miguel-Hernandez$",
       "dest": "/index.html"
     },
     {
-      "src": "^/hilda-palacios/(.*)$",
+      "src": "^/Miguel-Hernandez/(.*)$",
       "dest": "/$1"
     },
     {
-      "src": "^/hilda-palacios/.*",
+      "src": "^/Miguel-Hernandez/.*",
       "dest": "/index.html"
     },
     {
-      "src": "^/santiago-castaneda$",
+      "src": "^/Miguel-Hernandez$",
       "dest": "/index.html"
     },
     {
-      "src": "^/santiago-castaneda/(.*)$",
+      "src": "^/Miguel-Hernandez/(.*)$",
       "dest": "/$1"
     },
     {
-      "src": "^/santiago-castaneda/.*",
+      "src": "^/Miguel-Hernandez/.*",
       "dest": "/index.html"
     }
   ]
