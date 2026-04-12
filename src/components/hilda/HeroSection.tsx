@@ -47,11 +47,6 @@ export default function HeroSection() {
       </div>
 
       <div className="text-center text-white text-lg z-10 opacity-90 flex flex-col items-center w-full md:w-2/5 mx-auto">
-        <p className="pt-8 md:pt-12">
-          Liderazgo con propósito: combinamos visión financiera, transformación
-          digital y compromiso con el ecosistema tecnológico para impulsar un
-          crecimiento sostenible e inclusivo.
-        </p>
         <div className="flex flex-col md:flex-row gap-4 mt-6 w-full md:w-auto">
           <button
             onClick={handleAddContact}
