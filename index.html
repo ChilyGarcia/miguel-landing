@@ -1,47 +1,64 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/miguel.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#004AAD" />
+    <meta
+      name="description"
+      content="Líder en Ciencia, Tecnología e Innovación. Director de Distrito Nortech. Impulsando el ecosistema de startups y transformación digital en Norte de Santander."
+    />
+    <link rel="apple-touch-icon" href="/miguel.png" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://miguel-hernandez.cerebiia.com.co/"
+    />
+    <meta property="og:title" content="Miguel Hernández" />
+    <meta
+      property="og:description"
+      content="Líder en Ciencia, Tecnología e Innovación. Director de Distrito Nortech. Impulsando el ecosistema de startups y transformación digital en Norte de Santander."
+    />
+    <meta property="og:image" content="/miguel.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/miguel.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#004AAD" />
-  <meta name="description" content="Líder en Ciencia, Tecnología e Innovación. Director de Distrito Nortech. Impulsando el ecosistema de startups y transformación digital en Norte de Santander." />
-  <link rel="apple-touch-icon" href="/miguel.png" />
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://miguel-hernandez.cerebiia.com.co/" />
-  <meta property="og:title" content="Miguel Hernández - Distrito Nortech" />
-  <meta property="og:description" content="Líder en Ciencia, Tecnología e Innovación. Director de Distrito Nortech. Impulsando el ecosistema de startups y transformación digital en Norte de Santander." />
-  <meta property="og:image" content="/miguel.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://miguel-hernandez.cerebiia.com.co/"
+    />
+    <meta property="twitter:title" content="Miguel Hernández" />
+    <meta
+      property="twitter:description"
+      content="Líder en Ciencia, Tecnología e Innovación. Director de Distrito Nortech. Impulsando el ecosistema de startups y transformación digital en Norte de Santander."
+    />
+    <meta property="twitter:image" content="/miguel.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Miguel Hernández</title>
+    <script>
+      // Cargar manifest dinámicamente según la ruta
+      const path = window.location.pathname;
+      const manifestPath = path.includes("santiago")
+        ? "/manifest-santiago.json"
+        : path.includes("hilda")
+          ? "/manifest-hilda.json"
+          : "/manifest-miguel.json";
+      const link = document.createElement("link");
+      link.rel = "manifest";
+      link.href = manifestPath;
+      document.head.appendChild(link);
+    </script>
+  </head>
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://miguel-hernandez.cerebiia.com.co/" />
-  <meta property="twitter:title" content="Miguel Hernández - Distrito Nortech" />
-  <meta property="twitter:description" content="Líder en Ciencia, Tecnología e Innovación. Director de Distrito Nortech. Impulsando el ecosistema de startups y transformación digital en Norte de Santander." />
-  <meta property="twitter:image" content="/miguel.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <title>Miguel Hernández</title>
-  <script>
-    // Cargar manifest dinámicamente según la ruta
-    const path = window.location.pathname;
-    const manifestPath = path.includes('santiago') ? '/manifest-santiago.json' : 
-                         path.includes('hilda') ? '/manifest-hilda.json' : '/manifest-miguel.json';
-    const link = document.createElement('link');
-    link.rel = 'manifest';
-    link.href = manifestPath;
-    document.head.appendChild(link);
-  </script>
-</head>
-
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
-
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
